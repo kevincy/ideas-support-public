@@ -1,144 +1,21 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>高考备考助手 - 支持与隐私</title>
-  <meta name="description" content="高考备考助手 App 支持页面与隐私政策。">
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f7f8f3;
-      --card: #ffffff;
-      --ink: #17211b;
-      --muted: #607067;
-      --line: #dde4dc;
-      --accent: #0b7a55;
-      --accent-soft: #e4f3ec;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      line-height: 1.75;
-    }
-    header, main, footer {
-      width: min(960px, calc(100% - 32px));
-      margin: 0 auto;
-    }
-    header {
-      padding: 56px 0 28px;
-    }
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 16px;
-      padding: 6px 12px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: var(--accent);
-      font-size: 14px;
-      font-weight: 700;
-    }
-    h1 {
-      margin: 0 0 14px;
-      font-size: clamp(32px, 6vw, 54px);
-      line-height: 1.08;
-      letter-spacing: 0;
-    }
-    .lead {
-      max-width: 720px;
-      margin: 0;
-      color: var(--muted);
-      font-size: 18px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      margin: 22px 0 44px;
-    }
-    .card {
-      display: block;
-      min-height: 180px;
-      padding: 24px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--card);
-      color: inherit;
-      text-decoration: none;
-      box-shadow: 0 12px 30px rgba(23, 33, 27, 0.05);
-    }
-    .card:hover {
-      border-color: rgba(11, 122, 85, 0.35);
-      transform: translateY(-1px);
-    }
-    .card h2 {
-      margin: 0 0 8px;
-      font-size: 22px;
-      letter-spacing: 0;
-    }
-    .card p {
-      margin: 0;
-      color: var(--muted);
-    }
-    .section {
-      padding: 24px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--card);
-      margin-bottom: 18px;
-    }
-    .section h2 {
-      margin-top: 0;
-      font-size: 22px;
-      letter-spacing: 0;
-    }
-    ul { padding-left: 22px; }
-    footer {
-      padding: 24px 0 42px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-  </style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>高考备考助手 - 支持、隐私与服务条款</title>
+  <meta name="description" content="高考备考助手 App 官方支持、隐私政策与服务条款。">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header>
-    <div class="eyebrow">高考备考助手</div>
-    <h1>支持与隐私</h1>
-    <p class="lead">这里提供高考备考助手 App 的使用支持、常见问题和隐私政策。App 面向高中生和高考备考用户，用于学习任务跟踪、试卷整理、课程记录和考试复盘。</p>
-  </header>
-
+  <header class="home-header"><span class="tag">高考备考助手</span><h1>支持与隐私</h1><p class="lead">高考备考助手是一款面向高中生的本地优先备考工具，帮助整理学科任务、课程与考试、试卷、错题复习和高考目标。这里提供使用支持、隐私政策及服务条款。</p></header>
   <main>
     <div class="grid" aria-label="主要页面">
-      <a class="card" href="./support.html">
-        <h2>支持说明</h2>
-        <p>查看功能说明、常见问题、权限用途、备份恢复建议和联系支持方式。</p>
-      </a>
-      <a class="card" href="./privacy.html">
-        <h2>隐私政策</h2>
-        <p>了解 App 如何处理学习记录、照片、文件、语音输入、通知和备份数据。</p>
-      </a>
+      <a class="card" href="./support.html"><h2>支持说明</h2><p>查看功能说明、常见问题、iCloud 同步、权限、备份恢复和购买恢复方法。</p></a>
+      <a class="card" href="./privacy.html"><h2>隐私政策</h2><p>了解本地数据、iCloud 私有同步、照片文件、语音识别和系统服务如何处理。</p></a>
+      <a class="card" href="./terms.html"><h2>服务与购买条款</h2><p>查看 Pro 订阅、永久解锁、自动续订、恢复购买及退款相关说明。</p></a>
     </div>
-
-    <section class="section">
-      <h2>App 功能概览</h2>
-      <ul>
-        <li>每日灵感、备忘、提醒和时间线记录</li>
-        <li>学科任务计划、完成状态、用时、准确率和复盘</li>
-        <li>课程跟踪、讲义附件、课程反馈和课后任务关联</li>
-        <li>试卷集、试卷照片、PDF/Word 文件、本地 OCR 和全文搜索</li>
-        <li>高考倒计时、六科目标分、考试成绩和题型得分明细</li>
-        <li>中文和英文语音输入、照片附件、文件附件、数据备份与恢复</li>
-      </ul>
-    </section>
+    <section><h2>当前版本功能</h2><ul class="feature-grid"><li>今日概览、时间线、灵感、备忘与提醒</li><li>学科任务、专注计时、训练反馈与学习热力图</li><li>课程表、课程与考试、地点、循环及系统提醒</li><li>试卷集、试卷照片/PDF/文件、处理与本地 OCR</li><li>错题拍照与 PDF 收录、圈选、复习和打印导出</li><li>高考倒计时、六科目标、考试成绩与题型得分</li><li>小组件、Live Activity、分享扩展与日历同步</li><li>iCloud 私有同步、完整备份恢复与数据健康检查</li></ul></section>
   </main>
-
-  <footer>
-    <p>最后更新：2026 年 7 月 11 日</p>
-  </footer>
+  <footer><p>最后更新：2026 年 8 月 24 日</p></footer>
 </body>
 </html>
